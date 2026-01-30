@@ -1,0 +1,42 @@
+:root {
+  /*Background gradient (PAGE) */
+  --bg-gradient-from: #8e9eab;
+  --bg-gradient-to: #eef2f3;
+
+  /*Glass / Card background (LIGHTER, SAME TONE) */
+  --glass-from: rgba(158, 172, 184, 0.7);
+  --glass-to: rgba(245, 247, 248, 0.8);
+
+  /*Text colors */
+  --heading-color: #0f172a;      /* slate-900 */
+  --subheading-color: #334155;   /* slate-700 */
+  --body-text-color: #475569;    /* slate-600 */
+  --muted-text-color: #64748b;   /* slate-500 */
+
+  /* Accent (brand highlight) */
+  --accent-from: #ec4899; /* pink-500 */
+  --accent-to: #f43f5e;   /* rose-500 */
+
+  /* Status / success */
+  --success-color: #059669; /* emerald-600 */
+
+  /* Borders */
+  --border-light: rgba(255, 255, 255, 0.4);
+
+  /* Motion */
+  --transition: all 0.4s ease;
+}
+
+/* Optional dark mode (future-proof, not active yet) */
+.dark-mode {
+  --bg-gradient-from: #1e293b;
+  --bg-gradient-to: #020617;
+
+  --glass-from: rgba(30, 41, 59, 0.7);
+  --glass-to: rgba(15, 23, 42, 0.8);
+
+  --heading-color: #f8fafc;
+  --subheading-color: #e2e8f0;
+  --body-text-color: #cbd5f5;
+  --muted-text-color: #94a3b8;
+}
