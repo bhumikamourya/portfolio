@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left, .reveal-right {
+  opacity: 0;
+  transition: all 0.8s ease-out;
+  will-change: transform, opacity;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: radial-gradient(circle at top, var(--bg-gradient-from) 0%, var(--bg-gradient-to) 70%);
+  color: var(--body-text-color);
+  scroll-behavior: smooth;
+  transition: var(--transition);
+}
+
+.color-buttons {
+  background-image: linear-gradient(to right, var(--accent-from), var(--accent-to));
+  border: none;
+}
+
+.right-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: var(--border-light);
+  backdrop-filter: blur(16px);
+}
+
+.app {
+  min-height: 100vh;
+}
+.text-accent {
+    background: linear-gradient(to right, var(--accent-from), var(--accent-to));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-bg {
+  background-image:
+    linear-gradient(135deg,
+      var(--glass-from),
+      var(--glass-to));
+  backdrop-filter: blur(22px);
+  border: 1px solid var(--border-light);
+}
+
+.skill-cards{
+  background-image: linear-gradient(135deg, var(--border-light), var(--border-light));
+  backdrop-filter: blur(72px);
+  border: 1px solid var(--border-light);
+}
+
+.heading{
+  color: var(--heading-color);
+}
+.subheading{
+  color: var(--subheading-color);
+}
+.tags{
+  background: rgba(255,255,255,0.25);
+  color: var(--subheading-color);
+}
+ul{
+    color: var(--muted-text-color);
+}
+
+/* .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+}
+
+.btn.secondary {
+  background-color: var(--bg-gradient-to);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+} */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile-first responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
