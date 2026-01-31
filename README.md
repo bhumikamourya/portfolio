@@ -1,12 +1,16 @@
 # Personal Portfolio Website
 
-A modern, responsive personal portfolio built with React and Tailwind CSS, featuring smooth scroll-based animations and glassmorphism UI.
+Welcome to my personal portfolio website! It’s a clean, modern, and responsive web application built to showcase my skills, projects, and contact information.
+
+## Live Demo
+[View Portfolio](https://bhumika-dev.netlify.app/) 
 
 ## Tech Stack
 - React
 - Tailwind CSS
 - JavaScript (ES6+)
-- Intersection Observer API
+- Node.js & Express (backend projects)
+- MongoDB
 
 ## Features
 - Responsive modern UI
@@ -15,6 +19,9 @@ A modern, responsive personal portfolio built with React and Tailwind CSS, featu
 - Reusable components
 - Clean and scalable structure
 
-## Live Demo
-🔗 
-
+## Installation
+```bash
+git clone https://github.com/bhumikamourya/portfolio.git
+cd portfolio
+npm install
+npm start
