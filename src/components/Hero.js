@@ -6,7 +6,7 @@ const Hero = () => {
       className=" reveal min-h-screen flex items-center justify-center px-6"
     >
       <div
-        className="relative w-full max-w-6xl rounded-3xl p-16"
+        className="relative w-full max-w-6xl rounded-3xl"
       >
         <div className="grid md:grid-cols-2 gap-12 items-center">
 
@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
 
             <h1
-              className="text-4xl md:text-5xl font-extrabold leading-tight mb-2 heading"
+              className="text-4xl md:text-5xl text-center md:text-left font-extrabold leading-tight mb-2 heading"
             >
               Hi, I'm{" "}
               <span className="text-accent"
@@ -28,24 +28,19 @@ const Hero = () => {
               </span>
             </h1>
             <h2
-              className="text-xl md:text-2xl font-semibold mb-4 subheading"
+              className="text-xl text-center md:text-left font-semibold mb-4 subheading"
             >
               Frontend Developer
             </h2>
 
             <p
-              className="max-w-md mb-6"
+              className="max-w-md mb-6 text-center md:text-left"
             >
               I create scalable, clean and user-focused web applications with
               strong UI sense and solid backend logic.
             </p>
 
-            <div className="flex gap-4 mb-6">
-              {/* <button
-                className="px-6 py-2 rounded-full text-white font-semibold transition hover:scale-105 color-buttons"
-              >
-                Hire Me
-              </button> */}
+            <div className="flex flex-wrap justify-center md:justify-start item-center text-sm gap-4 mb-6">
               <a href="/assets/BhumikaMourya.pdf">
               <button
                 className="px-4 py-2 rounded-full text-white font-semibold transition hover:scale-105 color-buttons">
@@ -64,14 +59,14 @@ const Hero = () => {
           </div>
 
           {/* RIGHT IMAGE CARD */}
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-5 md:mt-0">
             <div
               className="relative rounded-2xl right-card shadow-2xl"
             >
               <img
                 src="/assets/profile.jpeg"
                 alt="Developer illustration"
-                className="w-72 h-70 object-cover rounded-xl"
+                className="w-80 h-70 md:w-72 md:h-72 object-cover rounded-xl"
               />
             </div>
           </div>

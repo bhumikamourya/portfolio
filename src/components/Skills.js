@@ -24,10 +24,10 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="reveal min-h-screen flex items-center justify-center px-6 transition-colors duration-500"
+      className="reveal flex items-center justify-center px-6 transition-colors duration-500"
     >
       <div
-        className="relative w-full max-w-6xl rounded-3xl p-16"
+        className="relative w-full max-w-6xl rounded-3xl p-6"
       >
         <h2
           className="text-3xl md:text-4xl font-extrabold mb-10 text-center heading"

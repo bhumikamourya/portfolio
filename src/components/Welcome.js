@@ -10,22 +10,22 @@ const Welcome = () => {
             className=" min-h-screen flex items-center justify-center px-6"
         >
             <div
-                className="relative w-full max-w-6xl rounded-2xl shadow-2xl p-20 card-bg"
+                className="relative w-full max-w-6xl rounded-2xl shadow-2xl p-6 card-bg mt-5 md:p-16"
             >
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
                     <div className="reveal-left">
 
                         <h1
-                            className="text-4xl md:text-5xl font-extrabold leading-tight mb-4 heading">
+                            className="text-4xl text-center md:text-left md:text-5xl font-extrabold leading-tight mb-4 heading">
                             Welcome to <br /> my Portfolio Website
                         </h1>
                         <p
-                            className="max-w-md mb-6">
+                            className="max-w-md mb-6 text-center md:text-left">
                             Building modern, reliable, and fast digital experiences with a
                             strong focus on clean UI and solid engineering.
                         </p>
-                        <div className="flex items-center gap-4 mb-6 ">
+                        <div className="flex flex-wrap items-center gap-4 mb-6 ">
                             <span className="text-xs font-semibold text-emerald-600 tracking-wide">LIVE STATUS</span>
                             <button
                                 onClick={() => scrollToSection("projects")}
@@ -45,7 +45,7 @@ const Welcome = () => {
 
                     {/* RIGHT SYSTEM CARD */}
                     <div
-                        className="relative rounded-xl p-6 border right-card"
+                        className="relative rounded-xl p-6 border right-card mt-10 md:mt-0"
                     >
                         <span
                             className="absolute top-4 right-4 text-xs font-semibold text-emerald-600"
