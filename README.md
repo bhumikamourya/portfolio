@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! It’s a clean, modern, and responsive web application built to showcase my skills, projects, and contact information.
 
 ## Live Demo
-[View Portfolio](https://.com)  
+[View Portfolio](https://bhumika-dev.netlify.app/) 
 
 ## Tech Stack
 - React
