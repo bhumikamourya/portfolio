@@ -20,17 +20,17 @@
 .reveal-right {
   opacity: 0;
   transform: translateX(0);
-  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
 
 .reveal-left {
   transform: translateX(-80px);
-  transition-delay: 0.10s;
+  transition-delay: 0.25s;
 }
 
 .reveal-right {
   transform: translateX(80px);
-  transition-delay: 0.10s;
+  transition-delay: 0.25s;
 }
 
 .reveal-left.active,
