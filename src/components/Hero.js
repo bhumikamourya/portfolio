@@ -30,7 +30,7 @@ const Hero = () => {
             <h2
               className="text-xl text-center md:text-left font-semibold mb-4 subheading"
             >
-              Frontend Developer
+              Full Stack Developer
             </h2>
 
             <p
@@ -41,7 +41,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap justify-center md:justify-start item-center text-sm gap-4 mb-6">
-              <a href="/assets/BhumikaMourya.pdf">
+              <a href="/assets/Bhumika_Mourya.pdf">
               <button
                 className="px-4 py-2 rounded-full text-white font-semibold transition hover:scale-105 color-buttons">
                 Download CV
