@@ -23,25 +23,23 @@ const About = () => {
             <p
               className="mb-4 leading-relaxed"
             >
-              Hi! I'm <span className="font-semibold">Bhumika</span>, a passionate
-              and creative Frontend Developer who loves building clean,
-              user-focused interfaces.
+              Hi! I'm <span className="font-semibold">Bhumika</span>, a Full Stack Developer passionate about building scalable and user-focused web applications.
             </p>
 
             <p
               className="mb-4 leading-relaxed"
             >
-              I focus on modern web design, responsive layouts, and smooth
-              interactions that balance beauty with performance.
+              I have hands-on experience developing complete applications using React.js, Node.js, Express.js, and MongoDB, including frontend interfaces, backend APIs, authentication systems, and database management.
             </p>
 
             <ul
               className="space-y-2 text-sm"
             >
-              <li>✦ React, Tailwind CSS, JavaScript</li>
-              <li>✦ UI/UX-focused development</li>
-              <li>✦ Clean code & scalable structure</li>
-              <li>✦ Always learning new technologies</li>
+              <li>✦ MERN Stack Development</li>
+              <li>✦ REST API Development</li>
+              <li>✦ Authentication & Authorization</li>
+              <li>✦ AI-Powered Web Applications</li>
+              <li>✦ Continuous Learning & Problem Solving</li>
             </ul>
           </div>
 

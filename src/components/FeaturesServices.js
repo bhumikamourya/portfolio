@@ -1,36 +1,36 @@
-import { Code, Sparkles, ShieldCheck, Rocket, Brain, Layout } from "lucide-react";
+import { Code, Server, ShieldCheck, Rocket, Brain, Database } from "lucide-react";
 
 export default function FeaturesServices() {
   const features = [
     {
       icon: <Code className="w-6 h-6" />,
       title: "Full-Stack Development",
-      desc: "Scalable MERN applications with clean architecture and best practices."
+      desc: "Building end-to-end web applications using React.js, Node.js, Express.js, and MongoDB."
     },
     {
-      icon: <Layout className="w-6 h-6" />,
-      title: "Modern UI/UX",
-      desc: "Glassmorphism, gradients, animations and responsive layouts."
+      icon: <Server className="w-6 h-6" />,
+      title: "Backend Development",
+desc: "Designing RESTful APIs, authentication systems, and scalable server-side architecture."
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "AI-Powered Logic",
-      desc: "Smart features using AI, automation and data-driven decisions."
+      title: "AI Integration",
+desc: "Integrating AI-powered features such as resume analysis, career recommendations, and interview preparation."
     },
     {
       icon: <ShieldCheck className="w-6 h-6" />,
-      title: "Secure Systems",
-      desc: "JWT auth, role-based access and secure backend APIs."
+      title: "Authentication & Security",
+desc: "Implementing JWT authentication, authorization, protected routes, and secure user workflows."
+    },
+    {
+      icon: <Database className="w-6 h-6" />,
+      title: "Database Management",
+desc: "Designing and managing MongoDB databases, schemas, and efficient data models."
     },
     {
       icon: <Rocket className="w-6 h-6" />,
-      title: "Performance Focused",
-      desc: "Optimized queries, fast load time and scalable codebase."
-    },
-    {
-      icon: <Sparkles className="w-6 h-6" />,
-      title: "Creative Solutions",
-      desc: "Not copy-paste projects — unique, tailored to real-world needs."
+      title: "Problem Solving",
+desc: "Developing practical software solutions that address real-world user needs."
     }
   ];
 
@@ -43,11 +43,10 @@ export default function FeaturesServices() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-extrabold text-center mb-6 heading">
-            OUR FEATURES & SERVICES
+            CORE EXPERTISE
           </h2>
           <p className="max-w-2xl mx-auto">
-            Powerful features and professional services crafted to build
-            high-quality, real-world applications.
+            Areas where I have hands-on experience building full-stack applications and solving real-world problems.
           </p>
         </div>
 

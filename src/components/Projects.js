@@ -3,50 +3,75 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Wanderlust – Full-Stack Web App',
+{
+title: "AI-Based Career Coach & Interview Preparation Platform",
+description:
+"AI-powered career guidance platform featuring resume analysis, skill-gap detection, career roadmap generation, progress tracking, and AI-generated interview preparation.",
+tech: [
+"React.js",
+"Redux",
+"Node.js",
+"Express.js",
+"MongoDB",
+"JWT",
+"Gemini AI",
+],
+github: "https://github.com/bhumikamourya/AI-Career-Coach",
+demo: "https://arynexa.netlify.app/",
+image: "/assets/aicareercoach.png",
+},
+
+{
+title: "Wanderlust – Property Rental Platform",
+description:
+"Full-stack property rental platform with authentication, listing management, reviews, image uploads, and Mapbox-based location services.",
+tech: [
+"Node.js",
+"Express.js",
+"MongoDB",
+"Passport.js",
+"Cloudinary",
+"Mapbox",
+],
+github: "https://github.com/bhumikamourya/WanderLust",
+demo: "https://wanderlust-project-3uh0.onrender.com/",
+image: "/assets/wanderlust.png",
+},
+
+{
+title: "Food Ordering Web App",
+description:
+"Full-stack food ordering application with user authentication, order management, and RESTful API integration.",
+tech: [
+"Node.js",
+"Express.js",
+"MongoDB",
+"JWT",
+"REST APIs",
+"MVC",
+],
+github: "https://github.com/bhumikamourya/Food-Ordering-application",
+demo: "",
+image: "/assets/foodweb.png",
+},
+ {
+      title: 'Zerodha Clone',
       description:
-        'Airbnb-like platform with authentication, listings, reviews, and image uploads. Clean MVC backend with secure auth.',
-      tech: [
+        'Replica of the Zerodha stock trading platform featuring frontend UI, dashboard, and basic trading components using modern web stack.',
+      tech: ['React',
+        'JavaScript',
         'Node.js',
         'Express.js',
         'MongoDB',
-        'Mongoose',
-        'Passport.js',
-        'Session-based Authentication',
         'REST APIs',
-        'EJS',
-        'MVC Architecture',
-        'Cloudinary',
-        'Multer',
         'CSS',
-        'Git'
-      ],
-      github: 'https://github.com/bhumikamourya/WanderLust',
-      demo: 'https://wanderlust-project-3uh0.onrender.com/',
-      image: '/assets/wanderlust.png',
-    },
-    {
-      title: 'Food Ordering Web App',
-      description:
-        'Full-stack food ordering system with user authentication, order management, and REST APIs.',
-      tech: [
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'Mongoose',
-        'JWT Authentication',
-        'REST APIs',
-        'MVC Architecture',
-        'EJS',
-        'CSS',
-        'Git'
-      ],
-      github: 'https://github.com/bhumikamourya/Food-Ordering-application',
+        'Charting Libraries',
+        'Git'],
+      github: 'https://github.com/bhumikamourya/Zerodha_Clone',
       demo: '',
-      image: '/assets/foodweb.png',
+      image: '/assets/zerodha.png',
     },
-    {
+     {
       title: 'Health Monitoring Application',
       description:
         'Full-stack web application to track daily health metrics like water intake, calories, sleep, weight, heart rate, blood pressure, and more with user authentication and dashboard analytics.',
@@ -65,23 +90,6 @@ const Projects = () => {
       github: 'https://github.com/bhumikamourya/health-monitoring-application',
       demo: '',
       image: '/assets/Htracker.png',
-    },
-    {
-      title: 'Zerodha Clone',
-      description:
-        'Replica of the Zerodha stock trading platform featuring frontend UI, dashboard, and basic trading components using modern web stack.',
-      tech: ['React',
-        'JavaScript',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'REST APIs',
-        'CSS',
-        'Charting Libraries',
-        'Git'],
-      github: 'https://github.com/bhumikamourya/Zerodha_Clone',
-      demo: '',
-      image: '/assets/zerodha.png',
     },
   ];
 
