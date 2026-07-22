@@ -47,7 +47,7 @@ const Hero = () => {
 
             <div className="flex flex-wrap justify-center md:justify-start item-center text-sm gap-4 mb-6">
               <a
-                href="/assets/Bhumika_Mourya.pdf"
+                href="/assets/Bhumika_Mourya_Resume-1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
