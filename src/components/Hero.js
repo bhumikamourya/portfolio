@@ -87,7 +87,7 @@ const Hero = () => {
               className="relative rounded-2xl right-card shadow-2xl"
             >
               <img
-                src="/assets/profile.jpeg"
+                src="/assets/file_0000000069587206aba9ff9defc875cd.png"
                 alt="Bhumika Mourya"
                 className="w-80 h-70 md:w-72 md:h-72 object-cover rounded-xl"
               />
