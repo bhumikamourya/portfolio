@@ -62,7 +62,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="/assets/Bhumika_Mourya_Resume-1.pdf"
+              href="/assets/Bhumika_Mourya.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="reveal-right px-5 py-3 rounded-full text-sm font-semibold transition color-buttons text-white"
