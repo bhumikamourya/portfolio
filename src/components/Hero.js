@@ -101,5 +101,3 @@ const Hero = () => {
 };
 
 export default Hero;
-import
-import
