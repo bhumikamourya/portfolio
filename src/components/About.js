@@ -43,19 +43,6 @@ const About = () => {
             </ul>
           </div>
 
-          {/* RIGHT AVATAR CARD */}
-          <div className=" flex justify-center reveal-right ">
-            <div
-              className="relative rounded-2xl right-card shadow-2xl"
-            >
-              <img
-                src="/assets/profile.jpeg"
-                alt="Avatar"
-                className="w-80 h-80 object-cover rounded-xl"
-              />
-            </div>
-          </div>
-
 
         </div>
       </div>
